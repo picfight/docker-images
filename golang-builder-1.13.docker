@@ -9,5 +9,6 @@ FROM golang:1.13
 
 #CMD [ "dcrd" ]
 
-go version
-go env
+RUN go version
+RUN go env
+
